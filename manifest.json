@@ -1,0 +1,15 @@
+{
+  "name": "Recursive Keyword Search",
+  "description": "Use Ctrl-F to search for pages linked to from here",
+  "version": "0.1",
+  "manifest_version": 3,
+  "commands": {
+    "recursive-search": {
+      "suggested_key": "Ctrl+Y",
+      "description": "Do the recursive search"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
